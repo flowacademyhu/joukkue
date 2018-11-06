@@ -1,10 +1,1 @@
-insert into users (firstname, lastname, password, role, email, date) values ('Jason', 'Statham', 'TransporteR', 'admin', 'transporter@gmail.com', '2018-11-11');
-insert into users (firstname, lastname, password, role, email, date) values ('Chuck', 'Norris', 'FatherOfTheGod', 'superheroadmin', 'chucky@norris.com', '1001-12-24');  
-insert into users (firstname, lastname, password, role, email, date) values ('Matrix', 'Marton', 'RedCapsula', 'editor', 'oraculum@gmail.com', '2018-11-10');
-insert into users (firstname, lastname, password, role, email, date) values ('Sylvester', 'Stallone', 'Rambo1', 'analyst', 'ramboo@gmail.com', '2000-03-07');
-insert into users (firstname, lastname, password, role, email, date) values ('Leonardo', 'Davinci', 'MadonnA', 'editor', 'leo@vinci.it', '1788-08-08');
-insert into users (firstname, lastname, password, role, email, date) values ('Michael', 'Jackson', 'WhiteSkin', 'analyst', 'black@jacko.cum', '2004-07-03');
-insert into users (firstname, lastname, password, role, email, date) values ('Robert', 'Boros', 'Cobol-D', 'admin', 'robert@wine.hu', '2018-10-10');
-insert into users (firstname, lastname, password, role, email, date) values ('Vin', 'Diesel', 'XXX', 'moderator', 'diesel@auto.com', '2006-04-30');
-insert into users (firstname, lastname, password, role, email, date) values ('Steve', 'Jobs', 'ApplE', 'admin', 'stevy@apple.com', '2001-09-13');
-insert into users (firstname, lastname, password, role, email, date) values ('Bill', 'Gates', 'MicroFost', 'advertiser', 'billy@microsoft.com', '2001-09-14');
+create table users (id serial primary key, firstname varchar(32), lastname varchar(32), password varchar(16), authorization varchar(32), email varchar(32), date date);
