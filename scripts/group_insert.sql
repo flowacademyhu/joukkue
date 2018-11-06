@@ -8,10 +8,3 @@ insert into report (status, subject, solution, membersId, userId) values ('opene
 insert into report (status, subject, solution, membersId, userId) values ('in progress', 'thing1', 'deleted', '2', '2');
 insert into _group (status, description) values ('public', 'ble-ble-ble');
 insert into _group (status, description) values ('hidden', 'bla-bla-bla');
-
-
-
-
-
-
-
