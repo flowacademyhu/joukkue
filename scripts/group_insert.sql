@@ -1,5 +1,5 @@
-insert into members (role, userId, groupId) values ('admin', '2', '2');
-insert into members (role, userId, groupId) values ('guest', '3', '3');
+insert into members (role, userId, groupId) values ('admin', 1, 1);
+insert into members (role, userId, groupId) values ('guest', 2, 2);
 insert into report (status, subject, solution, membersId, userId) values ('cancelled', 'thing4', 'solved', 1, 1);
 insert into report (status, subject, solution, membersId, userId) values ('cancelled', 'thing4', 'deleted', 2, 2);
 insert into report (status, subject, solution, membersId, userId) values ('in progress', 'thing4', 'deleted', 1, 1);
