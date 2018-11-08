@@ -1,1 +1,0 @@
-create table message (id serial primary key, text varchar(255), senderId bigint, recieverId bigint, file bytea, picture bytea, date timestamp);
